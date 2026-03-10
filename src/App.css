@@ -1,15 +1,15 @@
-#rott {
+#root {
   background-color: aqua;
-  min-width: 40vh;
-  min-height: 40vh;
+  min-width: 200px;
+  min-height: 100px;
   margin: 20px;
   padding: 16px;
   border: 2px solid black;
   border-radius: 16px;
   display: flex;
   flex-grow: 1;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: blueviolet;
