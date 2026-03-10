@@ -1,18 +1,13 @@
-// const - palavra reservada do js para criar constantes
-// App - nome do componente, deve começar com letra maiúscula
-// () => - Sintaxe de função arrow (função anônima)
-const App = () => {
+import './App.css';
 
- //Área do js do componente
-// return - palavra reservada do js para retornar o conteúdo do componente
-  return (
-     <> {/* fragmento estático do componente*/}
-      AULA REACTJS DSA2
-      {/* comentário de JSX*/}
-     </>
+function App() {
+
+  return(
+    <div>
+    <h1>App</h1>
+    <p>Aula de DSA2</p>
+    </div>
   )
 }
-//export 0- palavra reservada do js para expotar o componente
-//default - palavra reservada do js para exporat o componente como padrinho
-// App - nome do componente a ser exportado
+
 export default App;
